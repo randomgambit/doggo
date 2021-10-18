@@ -3,7 +3,6 @@
 from typing import Dict
 
 import streamlit as st
-from transformers import pipeline
 import pandas as pd
 import numpy as np
 import os
