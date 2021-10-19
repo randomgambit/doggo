@@ -209,7 +209,7 @@ if __name__ == "__main__":
     
     if uploaded_file is not None:
         myimg = Image.open(uploaded_file)
-        myimg.save('myimage')
+        myimg.save('myimage.png')
         outcome = mypred(myimg)
         with col2:
             myformatname = f"""Your dog is likely a <p style="font-family:sans-serif; color:Green; font-size: 24px;">{outcome.replace('_', ' ')}</p>"""
